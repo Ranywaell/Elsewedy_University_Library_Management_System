@@ -1,0 +1,42 @@
+/* إزالة الهوامش الافتراضية والتأكد من أن الخلفية سوداء بالكامل */
+* {
+  margin: 0;
+  padding: 0;
+  /* box-sizing: border-box; */
+}
+
+html, body, #root {
+  background-color: #000;
+  color: #fff;
+  height: 100%;
+  width: 100%;
+  overflow-x: hidden;
+}
+/* إزالة أي تمرير (Scroll) زائد في الصفحة */
+
+
+/* الحاوية الأساسية للتطبيق */
+.app-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: #000; /* تأكيد الخلفية السوداء */
+  color: #fff;
+}
+
+/* المساحة الرئيسية التي تحتوي على المحتوى */
+.content {
+  flex: 1;
+}
+
+/* تثبيت الـ Navbar في أسفل الشاشة */
+.navbar {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: #111;
+  padding: 10px 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}

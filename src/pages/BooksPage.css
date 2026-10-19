@@ -1,0 +1,135 @@
+/* ✅ تصميم الـ Navbar */
+.navbar {
+    /* background: linear-gradient(to right, rgba(215, 224, 231, 0.6), rgba(252, 214, 214, 0.6));  */
+    padding: 15px 0;
+  }
+  
+  .navbar-brand {
+    
+    font-size: 24px;
+    font-weight: bold;
+    color: rgb(83, 80, 80) !important; /* لون العنوان */
+    text-decoration: none;
+  }
+  
+  .navbar .form-control {
+    width: 250px; /* حجم حقل البحث */
+    border-radius: 20px; /* تدوير الحواف */
+    padding: 8px 15px;
+    border: 1px solid #ccc;
+  }
+  
+  .navbar .btn-primary {
+    border-radius: 20px; /* تدوير زر البحث */
+    padding: 8px 15px;
+  }
+  
+  .navbar .btn-outline-light {
+    border-radius: 20px; /* تدوير زر تسجيل الدخول */
+    padding: 8px 15px;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .navbar .btn-outline-light:hover {
+    background-color: white;
+    color: black;
+  }
+  
+  /* ✅ تحسين عرض الكتب */
+ .card {
+    display: flex;
+    flex-direction: row; /* جعل المحتوى أفقي */
+    align-items: center; /* محاذاة العناصر بشكل مركزي */
+    padding: 10px;
+}
+
+.card-img-top {
+    width: 120px; /* تحديد عرض الصورة */
+    height: 80px; /* تحديد ارتفاع الصورة */
+    object-fit: cover; /* ضمان أن الصورة تظل متناسقة */
+    border-radius: 5px; /* جعل الحواف مستديرة */
+    margin-right: 15px; /* إضافة مسافة بين الصورة والمحتوى */
+}
+
+.card-body {
+    flex: 1; /* السماح للمحتوى بأخذ بقية المساحة */
+}
+
+  
+  .card:hover {
+    transform: scale(1.03); /* تكبير بسيط عند الوقوف عليه */
+  }
+  
+  /* ✅ تنسيق النصوص */
+  .card-title {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .card-text {
+    color: #555;
+  }
+  
+  /* ✅ تحسين الـ Button داخل الـ Card */
+  .card .btn {
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: bold;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .card .btn:hover {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  /* ✅ تحسين صفحة النتائج */
+  .container {
+    max-width: 1100px;
+    /* background: linear-gradient(to right, rgba(254, 254, 254, 0.6), rgba(226, 193, 193, 0.6)); */
+  }
+
+
+
+  .btnn{
+    color: #555;
+  }
+  
+
+  /* ✅ تحسين تصميم زر Quick Look */
+.btn-secondary {
+    background-color: #6c757d;
+    border: none;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .btn-secondary:hover {
+    background-color: #5a6268;
+  }
+  
+  /* ✅ تحسين تصميم المودال */
+  .modal-content {
+    border-radius: 10px;
+    padding: 0px;
+  }
+  
+  .modal-title {
+    font-size: 22px;
+    font-weight: bold;
+  }
+
+  .card-img-top {
+    height: 200px;
+    object-fit: cover;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+  
+   img {
+    width: 100%;
+    max-height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+  
+  

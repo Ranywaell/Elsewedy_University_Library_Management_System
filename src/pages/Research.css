@@ -1,0 +1,187 @@
+.research-page {
+  min-height: 100vh;
+  background-color: #f8f9fa;
+}
+
+/* Hero Section */
+.research-hero {
+  background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+  height: 400px;
+  display: flex;
+  align-items: center;
+  color: white;
+  margin-bottom: 50px;
+}
+
+.hero-overlay {
+  width: 100%;
+  padding: 20px;
+}
+
+.hero-title {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.hero-subtitle {
+  font-size: 1.2rem;
+  text-align: center;
+  margin-bottom: 2rem;
+  opacity: 0.9;
+}
+
+/* Search Form */
+.search-form {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.search-input {
+  height: 50px;
+  font-size: 1.1rem;
+  border-radius: 25px 0 0 25px;
+  border: none;
+  padding: 0 25px;
+}
+
+.search-button {
+  height: 50px;
+  border-radius: 0 25px 25px 0;
+  background: linear-gradient(to right, #007bff, #0056b3);
+  border: none;
+  font-weight: 500;
+  padding: 0 30px;
+  transition: all 0.3s ease;
+}
+
+.search-button:hover {
+  background: linear-gradient(to right, #0056b3, #004085);
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Research Categories */
+.research-categories {
+  padding: 50px 0;
+}
+
+.section-title {
+  text-align: center;
+  margin-bottom: 40px;
+  color: #333;
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+.category-card {
+  height: 100%;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+  background: white;
+}
+
+.category-card:hover {
+  transform: translateY(-5px);
+}
+
+.category-icon {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.category-card .card-title {
+  font-size: 1.3rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  color: #333;
+}
+
+.category-card .card-text {
+  color: #666;
+  line-height: 1.6;
+}
+
+/* Quick Links */
+.quick-links {
+  padding: 50px 0;
+  background-color: white;
+}
+
+.quick-link-card {
+  height: 100%;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.quick-link-card:hover {
+  transform: translateY(-5px);
+}
+
+.quick-link-card h5 {
+  color: #333;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.quick-link-card p {
+  color: #666;
+  margin-bottom: 1.5rem;
+}
+
+.quick-link-card .btn {
+  border-radius: 25px;
+  padding: 8px 25px;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+.quick-link-card .btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .hero-title {
+    font-size: 2.5rem;
+  }
+
+  .hero-subtitle {
+    font-size: 1rem;
+  }
+
+  .search-input {
+    border-radius: 25px;
+    margin-bottom: 10px;
+  }
+
+  .search-button {
+    border-radius: 25px;
+    width: 100%;
+  }
+
+  .section-title {
+    font-size: 1.8rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .hero-title {
+    font-size: 2rem;
+  }
+
+  .research-hero {
+    height: 300px;
+  }
+
+  .category-card {
+    margin-bottom: 20px;
+  }
+} 

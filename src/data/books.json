@@ -1,0 +1,101 @@
+[
+  {
+    "id": 1,
+    "title": "The Great Gatsby",
+    "category": "Classic Literature",
+    "language": "English",
+    "year": 1925,
+    "summary": "A novel by F. Scott Fitzgerald about the American Dream and excess in the 1920s.",
+    "image": "./photos/n.jpg"
+  },
+  {
+    "id": 2,
+    "title": "To Kill a Mockingbird",
+    "category": "Historical Fiction",
+    "language": "English",
+    "year": 1960,
+    "summary": "A story about racial injustice and childhood in the Deep South.",
+    "image": "https://example.com/images/to-kill-a-mockingbird.jpg"
+  },
+  {
+    "id": 2,
+    "title": "To Kill a Mockingbird",
+    "category": "Historical Fiction",
+    "language": "English",
+    "year": 1960,
+    "summary": "A story about racial injustice and childhood in the Deep South.",
+    "image": "https://example.com/images/to-kill-a-mockingbird.jpg"
+  },
+  {
+    "id": 2,
+    "title": "To Kill a Mockingbird",
+    "category": "Historical Fiction",
+    "language": "English",
+    "year": 1960,
+    "summary": "A story about racial injustice and childhood in the Deep South.",
+    "image": "https://example.com/images/to-kill-a-mockingbird.jpg"
+  },
+  {
+    "id": 2,
+    "title": "To Kill a Mockingbird",
+    "category": "Historical Fiction",
+    "language": "English",
+    "year": 1960,
+    "summary": "A story about racial injustice and childhood in the Deep South.",
+    "image": "https://example.com/images/to-kill-a-mockingbird.jpg"
+  },
+  {
+    "id": 2,
+    "title": "To Kill a Mockingbird",
+    "category": "Historical Fiction",
+    "language": "English",
+    "year": 1960,
+    "summary": "A story about racial injustice and childhood in the Deep South.",
+    "image": "https://example.com/images/to-kill-a-mockingbird.jpg"
+  },
+  {
+    "id": 2,
+    "title": "To Kill a Mockingbird",
+    "category": "Historical Fiction",
+    "language": "English",
+    "year": 1960,
+    "summary": "A story about racial injustice and childhood in the Deep South.",
+    "image": "https://example.com/images/to-kill-a-mockingbird.jpg"
+  },
+  {
+    "id": 2,
+    "title": "To Kill a Mockingbird",
+    "category": "Historical Fiction",
+    "language": "English",
+    "year": 1960,
+    "summary": "A story about racial injustice and childhood in the Deep South.",
+    "image": "https://example.com/images/to-kill-a-mockingbird.jpg"
+  },
+  {
+    "id": 2,
+    "title": "To Kill a Mockingbird",
+    "category": "Historical Fiction",
+    "language": "English",
+    "year": 1960,
+    "summary": "A story about racial injustice and childhood in the Deep South.",
+    "image": "https://example.com/images/to-kill-a-mockingbird.jpg"
+  },
+  {
+    "id": 2,
+    "title": "To Kill a Mockingbird",
+    "category": "Historical Fiction",
+    "language": "English",
+    "year": 1960,
+    "summary": "A story about racial injustice and childhood in the Deep South.",
+    "image": "https://example.com/images/to-kill-a-mockingbird.jpg"
+  },
+  {
+    "id": 2,
+    "title": "To Kill a Mockingbird",
+    "category": "Historical Fiction",
+    "language": "English",
+    "year": 1960,
+    "summary": "A story about racial injustice and childhood in the Deep South.",
+    "image": "https://example.com/images/to-kill-a-mockingbird.jpg"
+  }
+]
